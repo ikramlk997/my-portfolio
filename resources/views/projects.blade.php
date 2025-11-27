@@ -93,6 +93,17 @@ body.dark-mode .btn-primary {
         </div>
       </div>
     </div>
+    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+  <div class="card shadow-sm">
+    <img src="https://private-user-images.githubusercontent.com/121321627/519781692-33d48d5c-55bb-463a-a320-c49336af8c9d.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjQyNjMyMDksIm5iZiI6MTc2NDI2MjkwOSwicGF0aCI6Ii8xMjEzMjE2MjcvNTE5NzgxNjkyLTMzZDQ4ZDVjLTU1YmItNDYzYS1hMzIwLWM0OTMzNmFmOGM5ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEyN1QxNzAxNDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZGI0ZDZiYzYxNDQ5ZGY3NWE2MzZlMTZlYWQ4OWUyM2M1OWYzZTk0ZGI1ZTc1ZTFjZDg3MTVkNDY5MTI3MTI4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.XzuQrXvjRBXbtQQFZzckLR9kYhnqlp4up_KaAmcJULA" class="card-img-top" alt="AtmosLive Weather">
+    <div class="card-body">
+      <h5 class="card-title">AtmosLive Weather</h5>
+      <p class="card-text">A weather web app showing live weather data, built with HTML, CSS & JS, API.</p>
+      <a href="https://ikramlk997.github.io/weather-app/" class="btn btn-primary" target="_blank">View Project</a>
+    </div>
+  </div>
+</div>
+
   </section>
 
   <!-- Footer -->

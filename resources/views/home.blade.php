@@ -156,11 +156,11 @@
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto align-items-lg-center">
         <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
         <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -294,7 +294,8 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> <br><br>
+    <a href="/projects" class="btn-transparent btn btn-outline-light" id="seeallproj" style="position: absolute; left: 50%; transform: translate(-50%, -50%);">See All Projects</a>
   </section>
 
   <!-- CONTACT -->
@@ -408,6 +409,7 @@ const translations = {
     highl: "Highlighted Projects",
     sendmsg: "Send Message",
     exp: "Experience & Degrees",
+    seeallproj: "See All Projects",
     orMailme: "Or email me at"
   },
   fr: {
@@ -428,6 +430,7 @@ const translations = {
     highl: "Projets en vedette",
     sendmsg: "Envoyer un message",
     exp: "Expérience & Diplômes",
+    seeallproj: "voir tous les Projets",
     orMailme: "Ou envoyez-moi un email à"
      },
   it: {
@@ -448,6 +451,7 @@ const translations = {
     highl: "Progetti principali",
     sendmsg: "Invia messaggio",
     exp: "Esperienza & Titoli di studio",
+    seeallproj: "Vedi tutti i progetti",
     orMailme: "Oppure scrivimi una email a"
   },
   es: {
@@ -468,6 +472,7 @@ const translations = {
     highl: "Proyectos destacados",
     sendmsg: "Enviar mensaje",
     exp: "Experiencia & Diplomas",
+    seeallproj: "Ver todos los proyectos",
     orMailme: "O envíame un correo a"
  },
   de: {
@@ -488,6 +493,7 @@ const translations = {
     highl: "Hervorgehobene Projekte",
     sendmsg: "Nachricht senden",
     exp: "Erfahrung & Abschlüsse",
+    seeallproj: "Alle Projekte anzeigen",
     orMailme: "Oder schreiben Sie mir eine E-Mail an" }
 };
 
@@ -512,6 +518,7 @@ document.getElementById('contactButton').innerText = translations[lang].contact_
   document.getElementById('highl').innerText = translations[lang].highl;
   document.getElementById('sendmsg').innerText = translations[lang].sendmsg;
   document.getElementById('exp').innerText = translations[lang].exp;
+  document.getElementById('seeallproj').innerText = translations[lang].seeallproj;
 });
 
 </script>
